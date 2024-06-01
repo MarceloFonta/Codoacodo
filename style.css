@@ -1,0 +1,20 @@
+
+
+
+
+.nav-item:hover {
+   animation-name: subrayar;
+   animation-duration: 2s;
+}
+
+
+@keyframes subrayar {
+    from {border-bottom: 1px solid rgb(123, 180, 255);}
+    to {border-bottom: 1px solid rgb(24, 97, 255);;}
+  }
+
+
+  .social-icons a:hover{
+    transform: scale(1.2);
+    transition: .3s;
+  }
